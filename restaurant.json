@@ -1,0 +1,114 @@
+{
+    "users": [
+        { "nickname": "director" },
+        { "nickname": "room manager" },
+        { "nickname": "waitor1" },
+        { "nickname": "cook manager" },
+        { "nickname": "table1" },
+        { "nickname": "cook1" }
+    ],
+    "groups": [
+        {
+            "name": "management",
+            "description": "group managers",
+            "vntowner": "yes",
+            "members": [
+                { "nickname": "director" },
+                { "nickname": "room manager" }
+            ]
+        },
+        {
+            "name": "waitors",
+            "description": "group waitors",
+            "vntowner": "no",
+            "members": [
+                { "nickname": "waitor1" },
+                { "nickname": "room manager" },
+                { "nickname": "cook manager" }
+            ]
+        },
+        {
+            "name": "customers",
+            "description": "group for customers seats",
+            "vntowner": "no",
+            "members": [
+                { "nickname": "table1" },
+                { "nickname": "room manager" }
+            ]
+        },
+        {
+            "name": "cooks",
+            "description": "group for cooks",
+            "vntowner": "no",
+            "members": [
+                { "nickname": "cook1" },
+                { "nickname": "cook manager" }
+            ]
+        }
+    ],
+    "services": [
+        {
+            "code": "eat.deliver",
+            "description": "food delivery",
+            "actions": [
+                {
+                    "action": "",
+                    "value": "",
+                    "description": ""
+                }
+            ],
+            "variables": [
+                {
+                    "name": "",
+                    "type": "",
+                    "description": ""
+                }
+            ],
+            "members": [
+                { "nickname": "waitor1" }
+            ]
+        },
+        {
+            "code": "eat.pay",
+            "description": "payment for service",
+            "actions": [
+                {
+                    "action": "",
+                    "value": "",
+                    "description": ""
+                }
+            ],
+            "variables": [
+                {
+                    "name": "",
+                    "type": "",
+                    "description": ""
+                }
+            ],
+            "members": [
+                { "nickname": "room manager" }
+            ]
+        },
+        {
+            "code": "cook.cook",
+            "description": "cook food",
+            "actions": [
+                {
+                    "action": "",
+                    "value": "",
+                    "description": ""
+                }
+            ],
+            "variables": [
+                {
+                    "name": "",
+                    "type": "",
+                    "description": ""
+                }
+            ],
+            "members": [
+                { "nickname": "cook1" }
+            ]
+        }
+    ]
+}

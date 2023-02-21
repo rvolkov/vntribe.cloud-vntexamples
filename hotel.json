@@ -1,0 +1,22 @@
+{
+    "groups": [
+        {
+            "name": "waitors",
+            "description": "group waitors",
+            "members": [
+                { "nickname": "waitor1" },
+                { "nickname": "waitor2" },
+                { "nickname": "room manager" }
+            ]
+        },
+        {
+            "name": "customers",
+            "description": "group for customers seats",
+            "members": [
+                { "nickname": "table1" },
+                { "nickname": "table2" },
+                { "nickname": "room manager" }
+            ]
+        }
+    ]
+}

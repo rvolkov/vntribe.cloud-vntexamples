@@ -1,0 +1,14 @@
+{
+    "templates": [
+        {
+            "name": "Restaurant",
+            "file": "restaurant.json",
+            "description": "example of restaurant business"
+        },
+        {
+            "name": "Hotel",
+            "file": "hotel.json",
+            "description": "example of hotel business"
+        }
+    ]
+}
